@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build & Dist
+dist/
+build/
+*.egg-info/
+out/
+
+# Database & Logs
+*.log
+*.sqlite3
+*.db
